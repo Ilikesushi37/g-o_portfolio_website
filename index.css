@@ -9,6 +9,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+.group-intro {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+    margin: 25px 0;
+    text-align: center;
+}
+
 ul {
     text-align: left;
     max-width: 600px;
