@@ -1,25 +1,26 @@
-const marvinSection = document.getElementsByClassName("marvin");
-const peilinSection = document.getElementsByClassName("peilin");
-const kylaniaSection = document.getElementsByClassName("kylania");
-const chrisSection = document.getElementsByClassName("chris");
-const imaniSection = document.getElementsByClassName("imani");
+const kylaniaSection = document.getElementById('kylania');
+const peilinSection = document.getElementById('peilin');
+const imaniSection = document.getElementById('imani');
+const marvinSection = document.getElementById('marvin');
+const chrisSection = document.getElementById('chris');
 
-marvinsection.addEventListener("click", function() {
-    marvinsection.style.backgroundColor = rgb(22, 255, 205);
+kylaniaSection.addEventListener("click", function() {
+    kylaniaSection.style.backgroundColor = 'lightblue';
 });
 
 peilinSection.addEventListener("click", function() {
     peilinSection.style.backgroundColor = 'lightyellow'; 
 });
 
-kylaniaSection.addEventListener("click", function() {
-    kylaniaSection.style.backgroundColor = rgba(113, 202, 232, 1);
-});
-
-chrisSection.addEventListener("click", function() {
-    chrisSection.style.backgroundColor = rgb(189, 25, 25);
-});
-
 imaniSection.addEventListener("click", function() {
     imaniSection.style.backgroundColor = 'purple';
+});
+
+marvinSection.addEventListener("click", function() {
+    marvinSection.style.backgroundColor =' rgba(22, 255, 205, 1)';
+});
+
+
+chrisSection.addEventListener("click", function() {
+    chrisSection.style.backgroundColor = 'rgb(189, 25, 25)';
 });
