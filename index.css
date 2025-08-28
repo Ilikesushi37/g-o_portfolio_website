@@ -2,29 +2,6 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 22px;
 }
-.kylania{
- background-color: rgb(31, 147, 185);
- font-size: 22px;
-}
-
-.chris{
-    background-color: rgb(189, 25, 25);
-    font-size: 22px;
-
-}
-
-.peilin{
-    background-color: lightyellow;
-    font-size: 22px;
-}
-.marvin{
-    background-color: rgb(22, 255, 205);
-}
-
-.imani{
-    background-color: purple;
-    font-size: 22px;
-}
 
 body {
     font-family: 'Helvetica', Arial, sans-serif;
@@ -46,7 +23,8 @@ h1 {
 }
 
 ul {
-    text-align: left;
+    text-align: middle;
+    list-style-position: inside;
     max-width: 600px;
     margin: 22px auto;
     padding: 15px;
